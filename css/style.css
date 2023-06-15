@@ -1,0 +1,182 @@
+html {
+  position: relative;
+}
+* {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.glyphicon-menu-hamburger {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+}
+.glyphicon-menu-hamburger:hover {
+  transition: 0.5s;
+  background-color: rgb(2, 19, 252);
+}
+.glyphicon {
+  margin-right: 8px;
+}
+
+.navbar-pills {
+  background-color: rgb(17, 17, 17);
+  opacity: 0.8;
+  font-size: 15px;
+  font-family: calibri;
+}
+
+.jumbotron {
+  background-color: rgb(17, 17, 17);
+  background-attachment: fixed;
+  color: #fff;
+  background-size: cover;
+  overflow: hidden;
+  height: 660px;
+}
+
+/* .fa {
+  margin-right: 9px;
+} */
+
+img {
+  margin-top: 35px;
+  border: 2px solid rgb(255, 255, 255);
+}
+.satu {
+  font-size: 35px;
+  color: rgb(235, 235, 235);
+  text-shadow: 1px 1px 2px #686868;
+  font-weight: bold;
+}
+.dua {
+  font-size: 45px;
+  color: rgb(53, 17, 255);
+  text-shadow: 1px 1px 3px #0011ff;
+}
+.tiga {
+  font-size: 15px;
+  font-family: monospace;
+  text-shadow: 1px 1px 2px #686868;
+}
+.jumbotron h3 p {
+  opacity: 0.2;
+  font-family: calibri;
+}
+section .thumbnail {
+  color: #333;
+  text-align: center;
+}
+section .thumbnail:hover {
+  text-decoration: none;
+  color: silver;
+}
+
+hr {
+  width: 250px;
+  border: solid 2px #333;
+}
+
+section {
+  min-height: 600px;
+}
+.pKiri,
+.pKanan {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1s;
+}
+.pKanan {
+  transform: translate(50px, 0) rotate(35deg);
+}
+.pKiri.pMuncul,
+.pKanan.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.portfolio {
+  background-color: #eee;
+}
+.portfolio .thumbnail {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 1s;
+}
+.portfolio .thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.contact {
+  min-height: 800px;
+}
+footer .container {
+  padding: 5px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(46, 46, 46);
+  padding: 30px;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: rgb(69, 255, 45);
+  text-decoration: none;
+}
+footer .fa-facebook {
+  color: #fff;
+}
+footer .fa-facebook:hover {
+  /*color: rgb(69, 255, 45);*/
+  text-decoration: none;
+  opacity: 0.5;
+}
+footer .fa-instagram {
+  color: #fff;
+  font-size: 18px;
+}
+footer .fa-instagram:hover {
+  /*color: rgb(69, 255, 45);*/
+  text-decoration: none;
+  opacity: 0.5;
+}
+footer .glyphicon-envelope {
+  color: #fff;
+}
+footer .glyphicon-envelope:hover {
+  /*color: rgb(69, 255, 45);*/
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.5cm;
+  font-family: Times new roman;
+}
+
+.glyphicon a {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.fa a {
+  color: #fff;
+  font-family: sans-serif;
+  margin-right: 5px;
+  font-size: 15px;
+  margin-left: -20px;
+  padding: 8px;
+}
+
+footer .fa h5 {
+  margin-top: -50px;
+  margin-left: -13px;
+  font-size: 17px;
+  font-family: inherit;
+  color: #fff;
+}
