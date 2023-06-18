@@ -127,32 +127,6 @@ footer a:hover {
   color: rgb(23, 19, 250);
   text-decoration: none;
 }
-footer .fa-facebook {
-  color: #fff;
-}
-footer .fa-facebook:hover {
-  /*color: rgb(69, 255, 45);*/
-  text-decoration: none;
-  opacity: 0.5;
-}
-footer .fa-instagram {
-  color: #fff;
-  font-size: 18px;
-}
-footer .fa-instagram:hover {
-  /*color: rgb(69, 255, 45);*/
-  text-decoration: none;
-  opacity: 0.5;
-}
-footer .glyphicon-envelope {
-  color: #fff;
-}
-footer .glyphicon-envelope:hover {
-  /*color: rgb(69, 255, 45);*/
-  text-decoration: none;
-  opacity: 0.5;
-}
-
 footer p {
   color: #fff;
   font-size: 0.5cm;
