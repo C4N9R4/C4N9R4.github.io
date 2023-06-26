@@ -74,7 +74,7 @@ section .thumbnail:hover {
 
 hr {
   width: 250px;
-  border: solid 2px #333;
+  border: solid 2px #6b6b6b;
 }
 
 section {
@@ -95,7 +95,8 @@ section {
   transform: translate(0, 0);
 }
 .portfolio {
-  background-color: #eee;
+  background-size: cover;
+  background-color: #d4d4d4;
 }
 .portfolio .thumbnail {
   opacity: 0;

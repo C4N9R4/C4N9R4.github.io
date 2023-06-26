@@ -9,7 +9,7 @@ $(".page-scroll").on("click", function (e) {
     {
       scrollTop: elemenTujuan.offset().top - 30,
     },
-    1250
+    1000
   );
   e.preventDefault();
 });
@@ -17,7 +17,7 @@ $(".page-scroll").on("click", function (e) {
 //about
 $(window).on("load", function () {
   $(".pKiri").addClass("pMuncul");
-  $(".pKanan").addClass("pMuncul");
+  $(".pKanan ").addClass("pMuncul");
 });
 // paralax
 
