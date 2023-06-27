@@ -25,9 +25,15 @@ html {
   font-size: 15px;
   font-family: calibri;
 }
-
+.navbar-brand {
+  font-family: "Allura";
+  font-size: 45px;
+  color: #0011ff;
+  text-shadow: 1px 1px 5px #020091;
+  font-weight: bold;
+}
 .jumbotron {
-  background-image: url(../img/parallax.jpg);
+  background-color: rgb(17, 17, 17);
   background-attachment: fixed;
   color: #fff;
   background-size: cover;
