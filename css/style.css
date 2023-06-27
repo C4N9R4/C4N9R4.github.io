@@ -27,7 +27,7 @@ html {
 }
 .navbar-brand {
   font-family: "Allura";
-  font-size: 45px;
+  font-size: 27px;
   color: #0011ff;
   text-shadow: 1px 1px 5px #020091;
   font-weight: bold;
@@ -50,15 +50,16 @@ img {
   border: 2px solid rgb(255, 255, 255);
 }
 .satu {
-  font-size: 35px;
+  font-size: 27px;
   color: rgb(235, 235, 235);
   text-shadow: 1px 1px 2px #686868;
-  font-weight: bold;
+  font-family: "Trirong";
 }
 .dua {
-  font-size: 45px;
+  font-size: 40px;
   color: rgb(53, 17, 255);
-  text-shadow: 1px 1px 3px #0011ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
 }
 .tiga {
   font-size: 15px;
