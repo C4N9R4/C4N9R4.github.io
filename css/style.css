@@ -27,7 +27,7 @@ html {
 }
 
 .jumbotron {
-  background-color: rgb(17, 17, 17);
+  background-image: url(../img/parallax.jpg);
   background-attachment: fixed;
   color: #fff;
   background-size: cover;
@@ -95,8 +95,9 @@ section {
   transform: translate(0, 0);
 }
 .portfolio {
+  background-image: url(../img/parallax.jpg);
   background-size: cover;
-  background-color: #d4d4d4;
+  background-attachment: fixed;
 }
 .portfolio .thumbnail {
   opacity: 0;

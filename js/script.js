@@ -36,6 +36,8 @@ $(window).scroll(function () {
   $(".jumbotron p").css({
     transform: "translate(0px, " + wScroll / 1.5 + "%)",
   });
+  //////////////////////
+  
 
   //portfolio
   if (wScroll > $(".portfolio").offset().top - 200) {
