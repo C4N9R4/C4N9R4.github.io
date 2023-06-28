@@ -5,21 +5,21 @@ html {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
 .glyphicon-menu-hamburger {
   color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
-  padding: 5px;
-  border-radius: 5px;
+  padding: 2px;
 }
 .glyphicon-menu-hamburger:hover {
   transition: 0.5s;
   background-color: rgb(2, 19, 252);
+  border-radius: 6px;
 }
 .glyphicon {
   margin-right: 8px;
 }
 
-.navbar-pills {
+.navbar-expand-md {
   background-color: rgb(17, 17, 17);
   opacity: 0.8;
   font-size: 15px;
@@ -27,9 +27,8 @@ html {
 }
 .navbar-brand {
   font-family: "Allura";
-  font-size: 27px;
+  font-size: 25px;
   color: #0011ff;
-  text-shadow: 1px 1px 5px #020091;
   font-weight: bold;
 }
 .jumbotron {
@@ -40,11 +39,6 @@ html {
   overflow: hidden;
   height: 660px;
 }
-
-/* .fa {
-  margin-right: 9px;
-} */
-
 img {
   margin-top: 35px;
   border: 2px solid rgb(255, 255, 255);
@@ -145,23 +139,6 @@ footer p {
 .glyphicon a {
   margin-right: 5px;
   font-size: 15px;
-}
-
-.fa a {
-  color: #fff;
-  font-family: sans-serif;
-  margin-right: 5px;
-  font-size: 15px;
-  margin-left: -20px;
-  padding: 8px;
-}
-
-footer .fa h5 {
-  margin-top: -50px;
-  margin-left: -13px;
-  font-size: 17px;
-  font-family: inherit;
-  color: #fff;
 }
 .copyright {
   font-size: 20px;
