@@ -102,6 +102,39 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.parallax-satu {
+  background-image: url(../img/parallax1.jpg);
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.paragraf-satu {
+  padding: 15px;
+}
+.parallax-kedua {
+  background-image: url(../img/parallax2.jpg);
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.paragraf-kedua {
+  padding: 15px;
+}
+.parallax-ketiga {
+  background-image: url(../img/parallax3.jpg);
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.paragraf-ketiga {
+  padding: 15px;
+}
 .portfolio .thumbnail {
   opacity: 0;
   transform: translate(0, -40px);
@@ -114,6 +147,7 @@ section {
 .contact {
   min-height: 800px;
 }
+
 footer .container {
   padding: 5px;
 }
