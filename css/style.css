@@ -176,6 +176,9 @@ footer p {
   margin-right: 5px;
   font-size: 15px;
 }
-.copyright {
-  font-size: 20px;
+.Copyright {
+  font-size: 23px;
+}
+.names {
+  font-family: "Sofia";
 }
