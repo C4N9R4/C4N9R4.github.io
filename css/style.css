@@ -31,6 +31,7 @@ html {
   color: #0011ff;
   font-weight: bold;
 }
+
 .jumbotron {
   background-color: rgb(17, 17, 17);
   background-attachment: fixed;
@@ -103,7 +104,7 @@ section {
   background-attachment: fixed;
 }
 .parallax-satu {
-  background-image: url(../img/parallax1.jpg);
+  background-image: url(../img/Editor.png);
   background-size: cover;
   height: 100%;
   background-position: center;
@@ -115,7 +116,7 @@ section {
 }
 
 .parallax-kedua {
-  background-image: url(../img/parallax2.jpg);
+  background-image: url(../img/HTML.jpg);
   background-size: cover;
   height: 100%;
   background-position: center;
