@@ -86,6 +86,7 @@ section {
   opacity: 0;
   transform: translate(-50px, 0);
   transition: 1s;
+  text-indent: 22px;
 }
 .pKanan {
   transform: translate(50px, 0) rotate(35deg);
@@ -103,37 +104,15 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.parallax-satu {
-  background-image: url(../img/Editor.png);
-  background-size: cover;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 .paragraf-satu {
   padding: 15px;
 }
 
-.parallax-kedua {
-  background-image: url(../img/HTML.jpg);
-  background-size: cover;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 .paragraf-kedua {
   padding: 15px;
 }
-.parallax-ketiga {
-  background-image: url(../img/parallax3.jpg);
-  background-size: cover;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 .paragraf-ketiga {
   padding: 15px;
 }
