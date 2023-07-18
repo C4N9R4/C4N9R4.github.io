@@ -25,12 +25,12 @@ $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
 
   //Jumbotron
-  $(" .jumbotron img").css({
-    transform: "translate(0px, " + wScroll / 1 + "%)",
+  $(" .jumbotron .Myimage").css({
+    transform: "translate(0px, " + wScroll / 4 + "%)",
   });
   //////////////////////
-  $(".jumbotron h3").css({
-    transform: "translate(0px, " + wScroll / 1.5 + "%)",
+  $(".jumbotron h6").css({
+    transform: "translate(0px, " + wScroll / 2 + "%)",
   });
   //////////////////////
   $(".jumbotron p").css({
