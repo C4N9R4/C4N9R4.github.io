@@ -42,27 +42,26 @@ html {
 
 .Myimage {
   margin-top: 35px;
-  /* border-bottom: 4px solid rgb(42, 0, 252); */
   border-bottom-right-radius: 70px;
   border-bottom-left-radius: 70px;
   box-shadow: 0px 3px 0px rgb(42, 0, 252);
 }
-.satu {
+.jumbotron .satu {
   font-size: 27px;
   color: rgb(235, 235, 235);
   text-shadow: 1px 1px 2px #686868;
   font-family: "Trirong";
 }
-.dua {
+.jumbotron .dua {
   font-size: 40px;
   color: rgb(53, 17, 255);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
 }
-.ptiga {
+.jumbotron .ptiga {
   font-family: monospace;
   text-shadow: 1px 1px 2px #686868;
-  font-size: 12px;
+  font-size: 17px;
 }
 .jumbotron h6 p {
   opacity: 0.2;

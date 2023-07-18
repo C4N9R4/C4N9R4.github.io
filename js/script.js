@@ -29,11 +29,14 @@ $(window).scroll(function () {
     transform: "translate(0px, " + wScroll / 4 + "%)",
   });
   //////////////////////
-  $(".jumbotron h6").css({
+  $(".jumbotron .satu ").css({
+    transform: "translate(0px, " + wScroll / 2.5 + "%)",
+  });
+  $(".jumbotron .dua").css({
     transform: "translate(0px, " + wScroll / 2 + "%)",
   });
   //////////////////////
-  $(".jumbotron p").css({
+  $(".jumbotron .ptiga").css({
     transform: "translate(0px, " + wScroll / 1.5 + "%)",
   });
   //////////////////////
