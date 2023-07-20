@@ -25,7 +25,7 @@ $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
 
   //Jumbotron
-  $(" .jumbotron .Myimage").css({
+  $(" .jumbotron img").css({
     transform: "translate(0px, " + wScroll / 4 + "%)",
   });
   //////////////////////
@@ -54,13 +54,13 @@ $(window).scroll(function () {
 //fa
 
 ///////////////////////
-const ulLiA = document.querySelectorAll(".navbar-expand-md ul li a");
+const ulLiA = document.querySelectorAll(".navbar ul li a");
 ulLiA[0].style.color = "rgb(255,255,255)";
 ulLiA[1].style.color = "rgb(255,255,255)";
 ulLiA[2].style.color = "rgb(255,255,255)";
 ulLiA[3].style.color = "rgb(255,255,255)";
 ///////////////////////
-const li1 = document.querySelectorAll(".navbar-expand-md ul li a");
+const li1 = document.querySelectorAll(".navbar ul li a");
 li1[0].addEventListener("mouseenter", function () {
   li1[0].style.color = "rgb(255, 255, 255)";
   li1[0].style.background = "rgb(70, 3, 255)";
@@ -76,7 +76,7 @@ li1[0].addEventListener("mouseleave", function () {
   li1[0].style.letterSpacing = "0.0em";
 });
 //////////////////////////////////////////////////
-const li2 = document.querySelectorAll(".navbar-expand-md ul li a");
+const li2 = document.querySelectorAll(".navbar ul li a");
 li2[1].addEventListener("mouseenter", function () {
   li2[1].style.color = "rgb(255, 255, 255)";
   li2[1].style.background = "rgb(70, 3, 255)";
@@ -90,7 +90,7 @@ li2[1].addEventListener("mouseleave", function () {
   li2[1].style.letterSpacing = "0.0em";
 });
 ////////////////////////////////////////////////
-const li3 = document.querySelectorAll(".navbar-expand-md ul li a");
+const li3 = document.querySelectorAll(".navbar ul li a");
 li3[2].addEventListener("mouseenter", function () {
   li3[2].style.color = "rgb(255, 255, 255)";
   li3[2].style.background = "rgb(70, 3, 255)";
@@ -104,7 +104,7 @@ li3[2].addEventListener("mouseleave", function () {
   li3[2].style.letterSpacing = "0.0em";
 });
 ////////////////////////////////////////////
-const li4 = document.querySelectorAll(".navbar-expand-md ul li a");
+const li4 = document.querySelectorAll(".navbar  ul li a");
 li4[3].addEventListener("mouseenter", function () {
   li4[3].style.color = "rgb(255, 255, 255)";
   li4[3].style.background = "rgb(70, 3, 255)";
