@@ -117,3 +117,30 @@ li4[3].addEventListener("mouseleave", function () {
   // li4[3].style.boxShadow = '1px 1px 1px 1px #016269';
   li4[3].style.letterSpacing = "0.0em";
 });
+// //////////////form contact input//////////////
+const scriptURL = "https://script.google.com/macros/s/AKfycbxDnT_m_9HhIhlpB_TxucXWAb2YqKsbhFMMFsyhCyiSd3STNqMyBXvBZWnXWPRfcO2clg/exec";
+const form = document.forms["submit-to-google-sheet"];
+// const btnKirim = document.querySelectorAll(".btn-kirim")[0];
+const btnLoading = document.querySelector(".btn-loading");
+// const alertForm = document.querySelectorAll(".alert-form ")[0];
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  //   when you click button submit
+  //   display button loading , and then lost the button
+  btnLoading.classList.toggle("d-none");
+  // alertForm.classList.toggle("d-none");
+  // btnKirim.classList.toggle("d-none");
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+    .then((response) => {
+      // display send button, lost loading button
+      btnLoading.classList.toggle("d-none");
+      // btnKirim.classList.toggle("d-none");
+      // display the alert
+      // alertForm.classList.toggle("d-none");
+      // reset the form
+      form.reset();
+      console.log("Success!", response);
+    })
+    .catch((error) => console.error("Error!", error.message));
+});

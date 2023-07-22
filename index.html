@@ -189,24 +189,27 @@
 
               <div class="row">
                 <div class="col-sm-8 col-sm-offset-2" >
-                  <form>
+                  <!-- <div class="alert alert-success  alert-form" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    Pesan Terkirim, succes</div> -->
+                  <form name="submit-to-google-sheet">
                     <div class="form-group">
                       <label for="nama">Nama</label>
-                      <input type="text" id="nama" class="form-control" placeholder="masukan nama">
+                      <input type="text" id="nama" class="form-control" placeholder="masukan nama" name="nama">
                       </label>
                     </div>
 
                     <div class="form-group">
                       <label for="email">Email</label>
-                      <input type="email" id="email" class="form-control" placeholder="masukan email">
+                      <input type="email" id="email" class="form-control" placeholder="masukan email" name="email">
                     </div>
 
                     <div class="form-group">
                       <label for="telp">No Telepon</label>
-                      <input type="tel" id="telp" class="form-control" placeholder="masukan no telepon">
+                      <input type="telp" id="telp" class="form-control" placeholder="masukan no telepon" name="no.telp">
                     </div>
 
-                    <select class="form-control">
+                    <select class="form-control" name="pilih-ketagori">
                       <option>-- Pilih kategori--</option>
                       <option>Sistem Informasi S1</option>
                       <option>Teknik Komputer S1</option>
@@ -216,10 +219,14 @@
 
                     <div class="form-group">
                         <label for="pesan">Pesan</label>
-                      <textarea class="form-control" rows="10" placeholder="masukan pesan"></textarea>
+                      <textarea class="form-control" rows="10" placeholder="masukan pesan" name="pesan"></textarea>
                     </div>
                    <!--  <button type="submit" class="btn  btn-lg default ">Send message</button> -->
-                    <button type="button" class="btn btn-primary btn-default active" role="button">Post Comment</button>
+                   <!-- <button type="submit" class="btn btn-primary btn-kirim">Kirim</button> -->
+                     <button type="submit" id="myButton" data-loading-text="Loading..." class="btn btn-primary btn-loading   " >
+                      Kirim
+                    </button>
+                    
                     <!-- <a href="#" class="btn btn-primary btn-lg active" role="button">Primary link</a> -->
                   </form>
                 </div>
